@@ -1,26 +1,466 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.tudo {
+    background-color: #FFF6FD;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+header {
+    background-color: #FFF6FD;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Catchye', sans-serif;
+    letter-spacing: 4px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.tracos {
+    width: 50px;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.painel img{
+     width: 100vw;
+}
+
+.logo {
+  width: 200px;  
+}
+.atalhos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Catchye', sans-serif;
+    width: 99vw;
+    letter-spacing: 2px;
+}
+
+.atalhos p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.atalho img {
+    width: 250px;
+    margin-top: 100px;
+    border-radius: 100%;
+}
+
+.atalho {
+    text-align: center;
+    font-size: 20px;
+    justify-items: center;
+}
+
+.titulo {
+    font-size: 30px;
+    margin: 60px;
+}
+
+.ariana{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.hidratante {
+    display: flex;
+    justify-content: space-between;
+    margin: 235px;
+    align-items: end;
+    margin-top: 100px;
+}
+
+.hidratante img {
+    width: 350px;
+}
+
+.hidratante hr {
+    width: 600px;
+    color: #C3CCD2;
+    border-width: 1px;
+    margin-bottom: 60px;
+}
+
+.texto {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#moisturizer {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.texto2 {
+    margin: 140px;
+    width: 82%;
+    margin-top: -360px;
+}
+
+.tituloM, .procurados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.tituloM {
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.tituloM h2 {
+    color: #7479c3;
+}
+ 
+.procurados {
+    background-color: #CDE4FF;
+    font-size: 35px;
+}
+
+.procurados h2 {
+    margin-top: -10px;
+}
+
+.neutro {
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.podruto1 img{
+   border-radius: 250px;
+}
+
+.podruto1, .neutroTexto {
+    width: 25vw;
+}
+
+.neutroTexto {
+    width: 42vw;
+    font-size: 25px;
+    align-items: end;
+    display: flex;
+}
+
+.neutroTexto2 {
+    margin: 170px;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-right: 149px;
+}
+
+.linha{
+    border-width: 20px;
+    color: #CDE4FF;
+}
+
+
+.comeco {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.textow, .moleres {
+    width: 30vw;
+}
+
+.textow {
+    display: flex;
+    width: 600px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.moleres img{
+    border-radius: 40px;
+}
+
+.frase {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.skins {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFD4E1;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.pele {
+    display: flex;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.img img, .textou {
+    width: 24vw;
+}
+
+.paleta1 {
+    width: 89px;
+    margin-left: 30px;
+}
+
+.textou {
+    width: 81vw;
+    padding: 10vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textou h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+
+.pele2 hr {
+    color: #7479c3;
+    border-width: 2px;
+    width: 100%;
+}
+
+.pele2 {
+    display: flex;
+    font-size: 25px;
+}
+
+.textou2, .pele2 hr {
+    display: flex;
+    flex-direction: column;
+}
+
+.img2 img, .textou2 {
+    width: 19.2vw;
+}
+
+.textou2 {
+    width: 81vw;
+    padding: 10vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textou2 h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.paleta2 {
+    width: 89px;
+    margin-right: 30px;
+
+}
+
+.img3 img {
+    width: 21.7vw;
+}
+
+.img4 img {
+    width: 27vw;
+}
+
+.text {
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.textow, primer {
+    width: 20vw;
+}
+
+.textow {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align: justify;
+    width: 600px;
+}
+
+.textow h1 {
+    font-size: 30px;
+}
+
+.primer img {
+    width: 300px;
+}
+
+.quebra {
+    height: 15px;
+    background-color: #FFD4E1;
+}
+
+.pele_oleosa, .pele_seca, .pele_mista, .pele_sensivel, .pele_envelhecida, .pele_acneica {
+    display: flex;
+}
+
+.textio, .imgs {
+    display: flex;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.textio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.textio h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.textio p {
+    font-size: 20px;
+    display: flex;
+    text-align: justify;
+}
+
+.imgs img {
+    width: 20vw;
+    border-radius: 100px;
+}
+
+.imgs {
+    display: flex;
+}
+
+.podrs {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    align-items: center;
+}
+
+.titl {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    font-size: 30px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.titl h1 {
+    width: 700px;
+    margin-left: 150px;
+}
+
+.titl hr {
+    background-color: #FFD4E1;
+    color: #FFD4E1;
+    height: 20px;
+    width: 110%;
+}
+
+.final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px;
+    align-items: center;
+    font-size: 25px;
+    gap: 200px;
+}
+
+.final img {
+    width: 20vw;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+.Skincare p{
+    font-size: 40px;
+    color: #CDE4FF;
+}
+
+
+.protetor_solar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 70px;
+}
+
+.protetor_solar hr{
+    width: 100%;
+    height: 5px;
+    color: black;
+}
+
+.protetor_solar p {
+    display: flex;
+    width: 1300px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.protetor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.protetor h1 {
+    font-size: 30px;
+    margin-top: -70px;
+    margin-left: -80px;
+}
+
+.protetor p {
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.girl img {
+    width: 50vw;
+}
+
+.mais {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #CDE4FF;
+    font-size: 40px;
+    margin-top: 50px;
 }
