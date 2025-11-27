@@ -418,6 +418,67 @@ Sempre verifique o resultado em diferentes luzes e mantenha os cuidados básicos
 <div className="mais">
   <h1>OS MAIS MELHORES</h1>
 </div>
+
+<div className="protetores">
+  <div className="protetor1">
+  <img src="protetor1.png" alt="" />
+  <p>
+    <strong>Público Alvo:</strong> Ideal para peles mistas e oleosas.
+    <br />
+    <strong>Proteção Solar:</strong> FPS 60 (Muito Alta Proteção) contra raios UVA/UVB.
+    <br />
+    <strong>Efeito na Pele:</strong> Controle de Oleosidade e Efeito Matte instantâneo e duradouro.
+    <br />
+    <strong>Textura:</strong> Ultraleve, Oil-Free, de rápida absorção e não pegajosa.
+    <br />
+    <strong>Fórmula:</strong> Não comedogênica (não obstrui os poros).
+    <br />
+    <strong>Ação Adicional:</strong> Contém Licochalcona A (antioxidante) que protege contra a Luz Visível e a poluição, prevenindo o envelhecimento.
+    <br />
+    <strong>Uso:</strong> Perfeito para uso diário, inclusive sob a maquiagem, e é resistente à água.  
+  </p>
+  </div>
+
+  <div className="protetor2">
+  <img src="protetor2.png" alt="" />
+  <p>
+    <strong>Nome:</strong> Creamy Skincare Watery Lotion FPS 60 - Protetor Solar Facial.
+    <br />
+    <strong>Proteção:</strong> FPS 60 e PPD 25 (Muito Alta Proteção UVA/UVB).
+    <br />
+    <strong>Textura:</strong> "Watery Lotion" (loção aquosa) ultraleve, fluida e de rápida absorção.
+    <br />
+    <strong>Acabamento:</strong> Toque Seco e Efeito Matte, sem deixar resíduos brancos.
+    <br />
+    <strong>Tipos de Pele:</strong> Indicado para todos os tipos de pele, inclusive as oleosas e sensíveis.
+    <br />
+    <strong>Ativo Chave:</strong> Contém HYPSKIN®, um ativo calmante e antioxidante que uniformiza o tom e fortalece a barreira cutânea.
+  </p>
+  </div>
+</div>
+
+
+    <section className="TalkToUs">
+      <div className="jenni">
+        <img src="jennie.png" alt="" />
+      </div>
+      <div className="talk">
+        <h1>Talk to Us</h1>
+        <h2>Nossos contacts</h2>
+        <h2><u>lumagi.suporte@gmail.com</u></h2>
+        <div className="insta">
+        <img src="instagram.png" alt="" />
+        <h2>coraboradores</h2>
+        </div>
+        <a href=""><h2>@ykzgigi</h2></a>
+        <a href=""><h2>@am.mjf</h2></a>
+        <a href=""><h2>@luscszz</h2></a>
+
+        <h2 id="whatts">talk to us no whatsapp</h2>
+        <h2>+55 (15) 9974-2985</h2>
+
+      </div>
+    </section>
     
     </section>
   );

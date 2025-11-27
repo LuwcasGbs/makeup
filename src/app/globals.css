@@ -422,15 +422,17 @@ header {
 
 .protetor_solar hr{
     width: 100%;
-    height: 5px;
-    color: black;
+    height: 3px;
+    border-width: 2px;
+    color: #73A7BC;
 }
 
 .protetor_solar p {
     display: flex;
-    width: 1300px;
+    width: 3000px;
     justify-content: center;
-    font-size: 20px;
+    font-size: 40px;
+    color: #73A7BC;
 }
 
 .protetor {
@@ -463,4 +465,70 @@ header {
     background-color: #CDE4FF;
     font-size: 40px;
     margin-top: 50px;
+}
+
+.protetor1, .protetor2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.protetor1 img, .protetor2 img, .protetor1 p, .protetor2 p {
+    width: 35vw;
+}
+
+.protetor1 p, .protetor2 p {
+    font-size: 25px;
+}
+
+.protetores {
+    margin-bottom: 100px;
+}
+
+
+
+.TalkToUs {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.TalkToUs h1{
+    font-size: 50px;
+}
+
+.TalkToUs h2{
+    font-size: 35px;
+}
+
+.jenni img {
+    width: 25vw;
+}
+
+.talk {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.insta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.insta img {
+    width: 40px;
+}
+
+.insta h2 {
+    color: #C8D1D1;
+}
+
+#whatts {
+    color: #C8D1D1;
 }
